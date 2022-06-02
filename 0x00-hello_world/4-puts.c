@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * This Function uses printf
+ *printf - iThis Function uses printf
  */
 int main(void)
 {
