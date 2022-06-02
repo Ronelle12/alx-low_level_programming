@@ -1,17 +1,11 @@
 #include <stdio.h>
 /**
  *
- *  *printf- gives us an out put of a literal value
- *
- *  *
- *
- *    *
- *
- *     * Return: 1 if the number is positive. 0 otherwise
+ *printf- gives us an out put of a literal value
  *
  **/
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
