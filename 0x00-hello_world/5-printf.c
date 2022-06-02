@@ -2,7 +2,7 @@
 /**
  * main - print string to screen
  *
- * Retun: 0
+ * Return: 0
  */
 int main(void)
 {
