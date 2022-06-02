@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- *printf- gives us an out put of a literal value
-(*
- * Description : this function allows the console to process the literal input
- * Return ; returns zero
+ * main - Print string to console
+ *
+ * Return : returns 0
  */
 int main(void)
 {
