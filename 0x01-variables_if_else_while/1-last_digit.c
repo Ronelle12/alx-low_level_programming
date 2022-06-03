@@ -18,19 +18,19 @@ int main(void)
 	{
 /* prints a value greater than 5 to the console */
 		a = n % 10;
-		printf("The last digit of %d is %d and is greater than 5\n", n, a);
+		printf("Last digit of %d is %d and is greater than 5\n", n, a);
 	}
 	else if (n == 0)
 	{
 /* prints the value zero to the console */
 		a = n % 10;
-		printf("The last digit of %d is %d and is 0\n", n, a);
+		printf("Last digit of %d is %d and is 0\n", n, a);
 	}
 	else if (n < 6 && n != 0)
 	{
 /* prints a value that is less than 6 and not 0 to the console */
 		a = n % 10;
-		printf("The last digit of %d is %d and is less than 6 and not 0\n", n, a);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, a);
 	}
 	return (0);
 
