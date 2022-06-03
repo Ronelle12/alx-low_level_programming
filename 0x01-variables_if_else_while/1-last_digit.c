@@ -27,6 +27,7 @@ int main(void)
 	{
 /* prints a value that is less than 6 and not 0 to the console */
 		printf("%d and is less than 6 and not 0\n", n % 10);
+	}
 
 	return (0);
 
