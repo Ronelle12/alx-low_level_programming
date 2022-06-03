@@ -11,7 +11,11 @@ int main(void)
 
 /* print from a - z */
 	for (n = 'a'; n <= 'z'; n++)
+	{
 		putchar(n);
+	}
+
+	putchar('\n');
 
 	return (0);
 }
