@@ -8,11 +8,12 @@
  */
 int main(void)
 {
-	int n, a;
+	int n,
+	int a = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	/* you code goes there */
 	if (a > 5)
 	{
 /* prints a value greater than 5 to the console */
