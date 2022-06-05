@@ -5,7 +5,7 @@
  *
  * Return: 0
  */
-int main(void)
+char main(void)
 {
 	char buffer[256] = "2015-10-19";
 
