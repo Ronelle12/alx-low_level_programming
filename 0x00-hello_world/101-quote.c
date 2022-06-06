@@ -5,12 +5,11 @@
  *
  * Return: 0
  */
-char main(void)
+int main(void)
 {
-	char buffer[256] = "2015-10-19";
 
-	printf("\"and that piec of art is useful\" - Dora Korpar, %c\n", buffer);
+	write(2, "and that piec of art is useful - Dora Korpar, 2015-10-19\n", 58);
 
-	return (0);
+	return (1);
 
 }
