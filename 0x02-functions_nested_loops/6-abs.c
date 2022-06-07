@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _abs- computes the absolute value of an integer
+ * _abs - computes the absolute value of an integer
  * @i: the integer to be converted
- * Return: always 0
+ * Return: always i
  */
 int _abs(int i)
 {
