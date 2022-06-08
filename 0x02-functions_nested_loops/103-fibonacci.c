@@ -16,13 +16,10 @@ int  main(void)
 		k = i + j;
 		i = j;
 		j = k;
-		printf("%lu", k);
-		if (count == 49)
-			putchar('\n');
-		else
+		if (k % 2 == 0 && k < 4000000)
 		{
-			printf(", ");
+			sums += k;
 		}
-	}
-	return (0);
+		printf("%lu\n", sums);
+		return (0);
 }
