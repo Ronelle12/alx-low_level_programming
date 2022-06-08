@@ -3,7 +3,7 @@
 /**
  * main - sum even fibonacci numbers under 4 million
  *
- * Retur: 0
+ * Return: 0
  */
 int main(void)
 {
