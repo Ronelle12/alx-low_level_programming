@@ -9,7 +9,7 @@ int main(void)
 {
 	int count;
 	unsigned long i, j, k;
-	unsigned long m, n, o, p, carry;
+	unsigned long m, n, p, carry;
 
 	count = 0;
 	i = 0;
@@ -30,14 +30,14 @@ int main(void)
 		carry = (m + n) / 1000;
 		p = (m + n) - carry * 1000;
 		k = (i + j) + carry;
-		m + n;
+		m = n;
 		n = p;
 		i = j;
 		j = k;
 		if (p >= 100)
 			printf("%lu%lu", k, p);
 		else
-			printf("lu0%lu", k, p);
+			printf("%lu0%lu", k, p);
 		if (count != 98)
 			printf(", ");
 		count++;
