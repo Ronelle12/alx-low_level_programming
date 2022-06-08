@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio,h>
+#include <stdio.h>
 /**
  * main - prints first 50 fin=bonacci numbers
  *
