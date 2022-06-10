@@ -6,7 +6,7 @@
  */
 void print_number(int n)
 {
-	signed int len, res, i, temp, expo;
+	unsigned int len, res, i, temp, expo;
 
 	res = n;
 	expo = len = 1;
