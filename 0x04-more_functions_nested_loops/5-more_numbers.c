@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * more_numbers - prints the range 0-14 ten times
  *
