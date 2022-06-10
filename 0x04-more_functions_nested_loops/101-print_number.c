@@ -21,7 +21,7 @@ void print_number(int n)
 	}
 
 	d = m;
-	count *= 1;
+	count = 1;
 
 	while (d > 9)
 	{
@@ -31,6 +31,6 @@ void print_number(int n)
 
 	for (; count >= 1; count /= 10)
 	{
-	_putchar(((m / count) % 10) + '48');
+	_putchar(((m / count) % 10) + 48);
 	}
 }
