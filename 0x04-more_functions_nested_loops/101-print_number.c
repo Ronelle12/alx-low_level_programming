@@ -6,30 +6,31 @@
  */
 void print_number(int n)
 {
-	unsigned int len, res, i, temp, expo;
+	unsigned int m, d, count;
 
-	res = n;
-	expo = len = 1;
-	if (res < 0)
+
+	if (n < 0)
 	{
-		res *= -1;
-		_putchar('-');
+		_putchar(45);
+		m = n * -1;
+
+	}
+	else
+	{
+		m = n;
 	}
 
-	temp = res;
-	while (temp >= 10)
+	d = m;
+	count *= 1;
+
+	while (d > 9)
 	{
-		len++;
-		temp /= 10;
+		d /= 10;
+		count *= 10;
 	}
 
-	for (i = 1; i < len; i++)
-		expo *= 10;
-
-	while (expo > 1)
+	for (; count >= 1; count /= 10)
 	{
-		_putchar((res / expo) % 10 + '0');
-		expo /= 10;
+	_putchar(((m / count) % 10) + '48');
 	}
-	_putchar(res % 10 + '0');
 }
