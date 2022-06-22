@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strlen_recursion(char *s)
+ * _strlen_recursion - prints string length
  * @s: string to be checked
  * Return: void
  */
