@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-"""
+"""This document calculates the perimetr of a zone as specifid in grid."""
 
-This document calculates the perimetr of a zone as specifid
-in grid
 
-"""
 def island_perimeter(grid):
     """Return the perimeter of an island.
 
@@ -14,7 +11,6 @@ def island_perimeter(grid):
         grid(list): A listr of integers that represen the island
     Returns:
         the perimeter of the island
-
     """
     width = len(grid[0])
     height = len(grid)
